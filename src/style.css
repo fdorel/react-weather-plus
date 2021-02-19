@@ -1,0 +1,8 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:regular");
+
+body {
+  background-image: url("./umbrela.jpg");
+  background-repeat: no-repeat;
+  background-size: 150%;
+  font-family: "Poppins", sans-serif;
+}
