@@ -69,7 +69,7 @@ function App() {
     const handleSubmit = async(event)=>{
       event.preventDefault();
       console.log(city, country)
-        const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},${country}&units=metric&cnt=3&appid=b8b4919cd73a03ffb89e495ab7bcf834`);
+        const res = await fetch(``);
         if(res.ok){
         res.json()
           .then(res => setData({
