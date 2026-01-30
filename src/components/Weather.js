@@ -5,7 +5,7 @@ const Weather = props => (
     {props.city && props.country && (
       <p className='weather__key'>
         Location:{' '}
-        <spa
+        <span>
           {props.city}, {props.country}
         </span>
       </p>
